@@ -6,7 +6,7 @@ pub fn build(b: *std.Build) void {
 
     const lib = b.addStaticLibrary(.{
         .name = "lib",
-        .root_source_file = .{ .path = "lib.zig" },
+        .root_source_file = .{ .path = "neruda.zig" },
         .target = target,
         .optimize = optimize,
     });
