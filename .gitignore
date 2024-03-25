@@ -1,0 +1,6 @@
+compiler/target
+compiler/Cargo.lock
+runtime/target
+runtime/Cargo.lock
+
+zig-cache
